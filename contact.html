@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+        <meta charset="utf-8">
+    <title>CONTACT ME</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <table border="1" width="80%">
+      <tr>
+        <td><a href="index.html">Home </a> </td>
+        <td><a href="projects.html">Proyects </a> </td>
+        <td><a href="contact.html">Contact </a> </td>
+
+        </tr>
+              </table>
+              <h1>Conctact Me</h1>
+
+<form class="" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+
+  <fieldset>
+    <legend>Personal Details</legend>
+
+      <label for="name"> Name: </label> <input id="Name" value="">  <br>
+      <label for="City">  City:  </label><input type="text" name="City" value="">  <br>
+       <label for="Email">  Email:  </label><input type="email" name="Email" value="">  <br>
+      <label for="Contact Number"> Contact Number:</label>  <input type="Number" name="Contact Number" value="">  <br>
+       <label for="Appointment Day"> Appoinment Day:  </label> <br/>
+
+  </fieldset>
+
+<fieldset>
+  <legend>Appoinment Day</legend>
+  <label for="Mon">Mon:</label> <input id="Mon" type="radio" name="App" value="Mon">
+  <label for="Tues">Tues:</label>  <input id="tues" type="radio" name="App" value="Tues">
+  <label for="Wed">Wed:</label> <input id="wed"type="radio" name="App" value="Wed">
+  <label for="Thur">Thurday:</label> <input id="Thur"type="radio" name="App" value="Thur">
+  <label for="frid">Friday:</label> <input id="frid"type="radio" name="App" value="Frid">
+
+</fieldset>
+
+<label for="Specialtist"> Choose a Category:</label>
+<select name="Specialtist" multiple id="Specialtist">
+    <optgroup label="Adults">
+        <option>Oncologist</option>
+        <option>Dermatologist</option>
+        <option>cardiologist</option>
+    </optgroup>
+    <optgroup label="Children">
+        <option>Pediatrician</option>
+        <option>Gp</option>
+        <option>psi</option>
+    </optgroup>
+</select>
+
+
+<label for="services">Services:</label>
+<input list="ServicesTypes" id="services" name="services" value="">
+
+<datalist id="ServicesTypes">
+
+<option value="course"></option>
+<option value="Bookings"> </option>
+<option value="open day"> </option>
+<option value="Enrollment"> </option>
+
+</datalist>
+
+
+<br> Message : <textarea name="Message" rows="4" cols="30"></textarea><br>
+<input type="Submit" name="" value="Submit">
+<br>
+
+  </form>
+  </body>
+</html>

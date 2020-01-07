@@ -1,0 +1,1 @@
+  <body style="background-color:#cbf1f5;">   background on the body always
